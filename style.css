@@ -288,13 +288,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 6px;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     font-weight: 600;
+    letter-spacing: 0.5px;
 }
 
 .hard-drop-btn span {
     pointer-events: none;
+    line-height: 1;
+    text-align: center;
 }
 
 /* Mobile Styles */
@@ -372,7 +374,7 @@ body {
     .hard-drop-btn {
         height: 42px;
         max-width: 160px;
-        font-size: 0.8rem;
+        font-size: 0.85rem;
     }
     
     .dpad-row {
@@ -445,7 +447,7 @@ body {
     .hard-drop-btn {
         height: 38px;
         max-width: 140px;
-        font-size: 0.75rem;
+        font-size: 0.8rem;
     }
     
     .dpad-row {
